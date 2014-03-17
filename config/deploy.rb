@@ -19,7 +19,7 @@ set :jboss_init_script, "/etc/init.d/jboss-as-standalone"
 set :rails_env, 'development'
 set :app_context,       "/"
 set :app_ruby_version, '1.9'
-set :application, "dissertation.wmu.se"
+set :application, "this_or_that"
 
 default_environment['JRUBY_OPTS'] = '--1.9'
 default_environment['PATH'] = '/opt/torquebox/current/jboss/bin:/opt/torquebox/current/jruby/bin:/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/root/bin:/root/bin'
