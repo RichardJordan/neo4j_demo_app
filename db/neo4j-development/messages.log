@@ -1,0 +1,1142 @@
+2014-03-16 09:00:20.691+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2014-03-16 09:00:20.692+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2014-03-16 09:00:20.699+0000 INFO  [o.n.k.i.DiagnosticsManager]: identity_map=true
+2014-03-16 09:00:20.699+0000 INFO  [o.n.k.i.DiagnosticsManager]: timestamps=true
+2014-03-16 09:00:20.699+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development
+2014-03-16 09:00:20.699+0000 INFO  [o.n.k.i.DiagnosticsManager]: online_backup_enabled=false
+2014-03-16 09:00:20.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: migration_thread=false
+2014-03-16 09:00:20.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: enable_rules=true
+2014-03-16 09:00:20.700+0000 INFO  [o.n.k.i.DiagnosticsManager]: storage_path=/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development
+2014-03-16 09:00:20.704+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2014-03-16 09:00:20.704+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2014-03-16 09:00:20.704+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2014-03-16 09:00:20.704+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2014-03-16 09:00:20.704+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2014-03-16 09:00:20.704+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2014-03-16 09:00:20.704+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2014-03-16 09:00:20.704+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2014-03-16 09:00:20.704+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2014-03-16 09:00:20.704+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2014-03-16 09:00:20.704+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2014-03-16 09:00:20.704+0000 INFO  [o.n.k.i.DiagnosticsManager]: NodeCache
+2014-03-16 09:00:20.705+0000 INFO  [o.n.k.i.DiagnosticsManager]: RelationshipCache
+2014-03-16 09:00:20.705+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2014-03-16 09:00:20.709+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2014-03-16 09:00:20.747+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 9.75 MB
+2014-03-16 09:00:20.747+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 85.09 MB
+2014-03-16 09:00:20.747+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 508.81 MB
+2014-03-16 09:00:20.750+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
+2014-03-16 09:00:20.750+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen, CMS Perm Gen]
+2014-03-16 09:00:20.751+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=6.13 MB, used=6.12 MB, max=32.00 MB, threshold=0.00 B
+2014-03-16 09:00:20.752+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Par Eden Space (Heap memory): committed=12.88 MB, used=7.81 MB, max=25.63 MB, threshold=?
+2014-03-16 09:00:20.752+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Par Survivor Space (Heap memory): committed=1.56 MB, used=1.24 MB, max=3.19 MB, threshold=?
+2014-03-16 09:00:20.752+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: CMS Old Gen (Heap memory): committed=70.65 MB, used=66.29 MB, max=480.00 MB, threshold=0.00 B
+2014-03-16 09:00:20.753+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: CMS Perm Gen (Non-heap memory): committed=99.53 MB, used=66.40 MB, max=256.00 MB, threshold=0.00 B
+2014-03-16 09:00:20.753+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2014-03-16 09:00:20.754+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Mac OS X; version: 10.9.2; arch: i386; cpus: 2
+2014-03-16 09:00:20.756+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 39211@Monterey-6.local
+2014-03-16 09:00:20.756+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2014-03-16 09:00:20.756+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: America/Los_Angeles
+2014-03-16 09:00:20.756+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2014-03-16 09:00:20.756+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) Client VM
+2014-03-16 09:00:20.756+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Apple Inc.
+2014-03-16 09:00:20.756+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 20.65-b04-462
+2014-03-16 09:00:20.757+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot Client Compiler
+2014-03-16 09:00:20.757+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-D[Standalone], -Xms64m, -Xmx512m, -XX:MaxPermSize=256m, -Djava.net.preferIPv4Stack=true, -Djboss.modules.system.pkgs=org.jboss.byteman, -Djava.awt.headless=true, -Dorg.jboss.boot.log.file=/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss/standalone/log/server.log, -Dlogging.configuration=file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss/standalone/configuration/logging.properties]
+2014-03-16 09:00:20.757+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2014-03-16 09:00:20.761+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar
+2014-03-16 09:00:20.761+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-naming-3.0.2-java/lib/jboss-sasl-1.0.3.Final.jar
+2014-03-16 09:00:20.762+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-naming-3.0.2-java/lib/jboss-marshalling-1.3.16.GA.jar
+2014-03-16 09:00:20.762+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/Extensions/dns_sd.jar
+2014-03-16 09:00:20.762+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-cache-3.0.2-java/lib/polyglot-cache-1.16.0.jar
+2014-03-16 09:00:20.763+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaRuntimeSupport.framework/Versions/A/Resources/Java/JavaRuntimeSupport.jar
+2014-03-16 09:00:20.763+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-backup-1.9.5.jar
+2014-03-16 09:00:20.763+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2014-03-16 09:00:20.763+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-messaging-3.0.2-java/lib/torquebox-messaging.jar
+2014-03-16 09:00:20.763+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/Extensions/vecmath.jar
+2014-03-16 09:00:20.763+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
+2014-03-16 09:00:20.763+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/concurrentlinkedhashmap-lru-1.3.1.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/json-1.8.1-java/lib/json/ext/generator.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-messaging-3.0.2-java/lib/hornetq-journal-2.3.1.Final.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/Extensions/libJ3D.jnilib
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/json-1.8.1-java/lib/json/ext/parser.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-kernel-1.9.5.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-naming-3.0.2-java/lib/xnio-nio-3.0.7.GA.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-messaging-3.0.2-java/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-web-3.0.2-java/lib/torquebox-web.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-naming-3.0.2-java/lib/xnio-api-3.0.7.GA.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/zookeeper-3.3.2.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/netty-3.6.3.Final.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-consistency-check-1.9.5.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-naming-3.0.2-java/lib/jboss-logging-3.1.2.GA.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/server-api-1.9.5.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/Extensions/QTJava.zip
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/rubies/jruby-1.7.11/lib/ruby/shared/bcpkix-jdk15on-1.47.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-cluster-1.9.5.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.2] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss/jboss-modules.jar
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
+2014-03-16 09:00:20.764+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/Extensions/j3daudio.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-udc-1.9.5.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-messaging-3.0.2-java/lib/hornetq-jms-client-2.3.1.Final.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/logback-core-0.9.30.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/Extensions/libQTJNative.jnilib
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/Extensions/j3dcore.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/logback-classic-0.9.30.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-naming-3.0.2-java/lib/jboss-remote-naming-1.0.5.Final.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-ha-1.9.5.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-core-3.0.2-java/lib/torquebox-core.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/therubyrhino_jar-1.7.4/jar/rhino-1.7R4.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-messaging-3.0.2-java/lib/jboss-jms-api_1.1_spec-1.0.1.Final.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/Extensions/j3dutils.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-messaging-3.0.2-java/lib/jboss-logmanager-1.4.0.Final.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/Extensions/jai_core.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-naming-3.0.2-java/lib/jboss-remoting-3.2.14.GA.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/rubies/jruby-1.7.11/lib/ruby/shared/bcprov-jdk15on-1.47.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/Extensions/jai_codec.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-naming-3.0.2-java/lib/jboss-marshalling-river-1.3.16.GA.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-messaging-3.0.2-java/lib/jboss-logging-3.1.2.GA.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/geronimo-jta_1.1_spec-1.1.1.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-com-1.9.5.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-naming-3.0.2-java/lib/jboss-ejb-client-1.0.0.Final.jar
+2014-03-16 09:00:20.765+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/scala-library-2.10.0.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-naming-3.0.2-java/lib/torquebox-naming.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-cypher-1.9.5.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/jruby-openssl-0.9.4/lib/jopenssl.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-graph-matching-1.9.5.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/logback-access-0.9.30.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-lucene-index-1.9.5.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-messaging-3.0.2-java/lib/netty-3.6.2.Final.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-messaging-3.0.2-java/lib/hornetq-commons-2.3.1.Final.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-udc-1.9.5.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/slf4j-api-1.6.2.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-graph-algo-1.9.5.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/jce.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-cache-3.0.2-java/lib/torquebox-cache.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-advanced-1.9.5-java/lib/neo4j-advanced/jars/neo4j-management-1.9.5.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/log4j-1.2.16.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/lib/torquebox-server.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-jmx-1.9.5.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-core-2.3.0-java/lib/neo4j-core/jars/neo4jrb-adaptor.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-messaging-3.0.2-java/lib/hornetq-core-client-2.3.1.Final.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/server-api-1.9.5.jar
+2014-03-16 09:00:20.766+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/rubies/jruby-1.7.11/lib/ruby/shared/kryptproviderjdk.jar
+2014-03-16 09:00:20.767+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.3] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+2014-03-16 09:00:20.767+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/lucene-core-3.6.2.jar
+2014-03-16 09:00:20.767+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/Users/dev/.rvm/rubies/jruby-1.7.11/lib/ruby/shared/kryptcore.jar
+2014-03-16 09:00:20.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2014-03-16 09:00:20.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss
+2014-03-16 09:00:20.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Library/Java/Extensions
+2014-03-16 09:00:20.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: /System/Library/Java/Extensions
+2014-03-16 09:00:20.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/lib/java
+2014-03-16 09:00:20.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2014-03-16 09:00:20.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: jboss.qualified.host.name = monterey-6.local
+2014-03-16 09:00:20.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: logging.configuration = file:/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss/standalone/configuration/logging.properties
+2014-03-16 09:00:20.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: jboss.modules.system.pkgs = org.jboss.byteman
+2014-03-16 09:00:20.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.launcher = SUN_STANDARD
+2014-03-16 09:00:20.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot Client Compiler
+2014-03-16 09:00:20.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.apache.tomcat.util.http.ServerCookie.FWD_SLASH_IS_SEPARATOR = false
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: jboss.server.persist.config = true
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = dev
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.nativeDoubleBuffering = true
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: jboss.node.name = monterey-6
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: [Standalone] = 
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: jboss.home.dir = /Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = en
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = America/Los_Angeles
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 32
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: jboss.server.config.dir = /Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss/standalone/configuration
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = 
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = MacRoman
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = /
+2014-03-16 09:00:20.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = US
+2014-03-16 09:00:20.769+0000 INFO  [o.n.k.i.DiagnosticsManager]: javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+2014-03-16 09:00:20.769+0000 INFO  [o.n.k.i.DiagnosticsManager]: javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+2014-03-16 09:00:20.769+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.jboss.boot.log.file = /Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss/standalone/log/server.log
+2014-03-16 09:00:20.769+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = :
+2014-03-16 09:00:20.769+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.torquebox.slim_distro = true
+2014-03-16 09:00:20.769+0000 INFO  [o.n.k.i.DiagnosticsManager]: jboss.modules.dir = /Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss/modules
+2014-03-16 09:00:20.769+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeLittle
+2014-03-16 09:00:20.769+0000 INFO  [o.n.k.i.DiagnosticsManager]: jboss.server.deploy.dir = /Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss/standalone/data/content
+2014-03-16 09:00:20.769+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = apple.awt.CToolkit
+2014-03-16 09:00:20.769+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.apache.tomcat.util.net.WAIT_FOR_THREAD = false
+2014-03-16 09:00:20.769+0000 INFO  [o.n.k.i.DiagnosticsManager]: module.path = /Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss/modules
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: jboss.server.temp.dir = /Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss/standalone/tmp
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = /Users/dev
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.xml.sax.driver = __redirected.__XMLReaderFactory
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.jboss.resolver.warning = true
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: gopherProxySet = false
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = /Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss/jboss-modules.jar -mp /Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss -Djboss.server.base.dir=/Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss/standalone -Djruby.home=/Users/dev/.rvm/rubies/jruby-1.7.11 --server-config=standalone.xml
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.jboss.security.context.ThreadLocal = true
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: jboss.server.log.dir = /Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss/standalone/log
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: catalina.home = /Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss/standalone/tmp
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = unknown
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: jboss.server.data.dir = /Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss/standalone/data
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: mrj.build = 11M4609
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.source = neo4rb
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: jruby.home = /Users/dev/.rvm/rubies/jruby-1.7.11
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: mrj.version = 1070.1.6.0_65-462
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = /Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: jboss.server.base.dir = /Users/dev/.rvm/gems/jruby-1.7.11@neo4j-rail3/gems/torquebox-server-3.0.2-java/jboss/standalone
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.apache.catalina.session.StandardManager.PATHNAME = sessions.ser
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.quartz.scheduler.skipUpdateCheck = true
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+2014-03-16 09:00:20.770+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = MacRoman
+2014-03-16 09:00:20.771+0000 INFO  [o.n.k.i.DiagnosticsManager]: jboss.host.name = monterey-6
+2014-03-16 09:00:20.771+0000 INFO  [o.n.k.i.DiagnosticsManager]: javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+2014-03-16 09:00:20.771+0000 INFO  [o.n.k.i.DiagnosticsManager]: jboss.server.name = monterey-6
+2014-03-16 09:00:20.771+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2014-03-16 09:00:20.771+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface en9:
+2014-03-16 09:00:20.771+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 192.168.1.109
+2014-03-16 09:00:20.771+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface lo0:
+2014-03-16 09:00:20.771+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2014-03-16 09:00:20.771+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2014-03-16 09:00:20.933+0000 WARN  [o.n.m.i.HotspotManagementSupport]: Failed to load local JMX connection URL.
+java.lang.ClassNotFoundException: sun.management.ConnectorAddressLink
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202) ~[na:1.6.0_65]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.6.0_65]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190) ~[na:1.6.0_65]
+	at org.jruby.util.JRubyClassLoader.findClass(JRubyClassLoader.java:128) ~[jruby.jar!/:na]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306) ~[na:1.6.0_65]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247) ~[na:1.6.0_65]
+	at java.lang.Class.forName0(Native Method) ~[na:1.6.0_65]
+	at java.lang.Class.forName(Class.java:171) ~[na:1.6.0_65]
+	at org.neo4j.management.impl.HotspotManagementSupport.getJMXServiceURL(HotspotManagementSupport.java:55) ~[neo4j-management-1.9.5.jar:1.9.5]
+	at org.neo4j.jmx.impl.JmxKernelExtension.init(JmxKernelExtension.java:57) [neo4j-jmx-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:467) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:61) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.extension.KernelExtensions.init(KernelExtensions.java:107) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:467) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:61) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:95) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.run(InternalAbstractGraphDatabase.java:262) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.EmbeddedGraphDatabase.<init>(EmbeddedGraphDatabase.java:106) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at org.neo4j.kernel.EmbeddedGraphDatabase.<init>(EmbeddedGraphDatabase.java:81) [neo4j-kernel-1.9.5.jar:1.9.5]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.6.0_65]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39) [na:1.6.0_65]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27) [na:1.6.0_65]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513) [na:1.6.0_65]
+	at org.jruby.javasupport.JavaConstructor.newInstanceDirect(JavaConstructor.java:291) [jruby.jar!/:na]
+	at org.jruby.java.invokers.ConstructorInvoker.call(ConstructorInvoker.java:104) [jruby.jar!/:na]
+	at org.jruby.java.invokers.ConstructorInvoker.call(ConstructorInvoker.java:197) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:356) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callBlock(CachingCallSite.java:213) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:217) [jruby.jar!/:na]
+	at org.jruby.java.proxies.ConcreteJavaProxy$2.call(ConcreteJavaProxy.java:56) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:356) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callBlock(CachingCallSite.java:213) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:217) [jruby.jar!/:na]
+	at org.jruby.RubyClass.newInstance(RubyClass.java:811) [jruby.jar!/:na]
+	at org.jruby.RubyClass$INVOKER$i$newInstance.call(RubyClass$INVOKER$i$newInstance.gen) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.JavaMethod$JavaMethodZeroOrOneOrTwoOrNBlock.call(JavaMethod.java:314) [jruby.jar!/:na]
+	at org.jruby.java.proxies.ConcreteJavaProxy$3.call(ConcreteJavaProxy.java:155) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:346) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:204) [jruby.jar!/:na]
+	at org.jruby.ast.CallTwoArgNode.interpret(CallTwoArgNode.java:59) [jruby.jar!/:na]
+	at org.jruby.ast.InstAsgnNode.interpret(InstAsgnNode.java:95) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:139) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:306) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:136) [jruby.jar!/:na]
+	at org.jruby.ast.VCallNode.interpret(VCallNode.java:88) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.ast.IfNode.interpret(IfNode.java:118) [jruby.jar!/:na]
+	at org.jruby.ast.IfNode.interpret(IfNode.java:118) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.RescueNode.executeBody(RescueNode.java:221) [jruby.jar!/:na]
+	at org.jruby.ast.RescueNode.interpret(RescueNode.java:116) [jruby.jar!/:na]
+	at org.jruby.ast.BeginNode.interpret(BeginNode.java:83) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_BLOCK(ASTInterpreter.java:112) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.evalBlockBody(Interpreted19Block.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.yield(Interpreted19Block.java:157) [jruby.jar!/:na]
+	at org.jruby.runtime.Block.yield(Block.java:142) [jruby.jar!/:na]
+	at org.jruby.ext.thread.Mutex.synchronize(Mutex.java:149) [jruby.jar!/:na]
+	at org.jruby.ext.thread.Mutex$INVOKER$i$0$0$synchronize.call(Mutex$INVOKER$i$0$0$synchronize.gen) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:316) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callBlock(CachingCallSite.java:145) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callIter(CachingCallSite.java:154) [jruby.jar!/:na]
+	at org.jruby.ast.CallNoArgBlockNode.interpret(CallNoArgBlockNode.java:64) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:139) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:306) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:136) [jruby.jar!/:na]
+	at org.jruby.ast.CallNoArgNode.interpret(CallNoArgNode.java:60) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.IfNode.interpret(IfNode.java:118) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:139) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:306) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:136) [jruby.jar!/:na]
+	at org.jruby.ast.VCallNode.interpret(VCallNode.java:88) [jruby.jar!/:na]
+	at org.jruby.ast.IfNode.interpret(IfNode.java:118) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:139) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:306) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:136) [jruby.jar!/:na]
+	at org.jruby.ast.CallNoArgNode.interpret(CallNoArgNode.java:60) [jruby.jar!/:na]
+	at org.jruby.ast.LocalAsgnNode.interpret(LocalAsgnNode.java:123) [jruby.jar!/:na]
+	at org.jruby.ast.OptArgNode.interpret(OptArgNode.java:61) [jruby.jar!/:na]
+	at org.jruby.ast.ArgsNode.assignOptArgs(ArgsNode.java:490) [jruby.jar!/:na]
+	at org.jruby.ast.ArgsNode.prepareOptionalArguments(ArgsNode.java:464) [jruby.jar!/:na]
+	at org.jruby.ast.ArgsNode.prepareOptOrRestArgs(ArgsNode.java:458) [jruby.jar!/:na]
+	at org.jruby.ast.ArgsNode.prepare(ArgsNode.java:280) [jruby.jar!/:na]
+	at org.jruby.ast.ArgsNode.prepare(ArgsNode.java:342) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:137) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:306) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:136) [jruby.jar!/:na]
+	at org.jruby.ast.CallNoArgNode.interpret(CallNoArgNode.java:60) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:139) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:306) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:136) [jruby.jar!/:na]
+	at org.jruby.ast.CallNoArgNode.interpret(CallNoArgNode.java:60) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.IfNode.interpret(IfNode.java:116) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:139) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:306) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:136) [jruby.jar!/:na]
+	at org.jruby.ast.VCallNode.interpret(VCallNode.java:88) [jruby.jar!/:na]
+	at org.jruby.ast.CallNoArgNode.interpret(CallNoArgNode.java:60) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.DNode.appendToString(DNode.java:70) [jruby.jar!/:na]
+	at org.jruby.ast.DNode.buildDynamicString(DNode.java:88) [jruby.jar!/:na]
+	at org.jruby.ast.DNode.interpret(DNode.java:36) [jruby.jar!/:na]
+	at org.jruby.ast.CallNoArgNode.interpret(CallNoArgNode.java:60) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:139) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:306) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:136) [jruby.jar!/:na]
+	at org.jruby.ast.VCallNode.interpret(VCallNode.java:88) [jruby.jar!/:na]
+	at org.jruby.ast.OpElementOneArgOrAsgnNode.interpret(OpElementOneArgOrAsgnNode.java:63) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:139) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:306) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:136) [jruby.jar!/:na]
+	at org.jruby.ast.VCallNode.interpret(VCallNode.java:88) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.LocalAsgnNode.interpret(LocalAsgnNode.java:123) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:247) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:222) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:356) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callBlock(CachingCallSite.java:213) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:217) [jruby.jar!/:na]
+	at org.jruby.ast.CallTwoArgBlockPassNode.interpret(CallTwoArgBlockPassNode.java:62) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_BLOCK(ASTInterpreter.java:112) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.evalBlockBody(Interpreted19Block.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.yield(Interpreted19Block.java:194) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.call(Interpreted19Block.java:125) [jruby.jar!/:na]
+	at org.jruby.runtime.Block.call(Block.java:101) [jruby.jar!/:na]
+	at org.jruby.RubyProc.call(RubyProc.java:290) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.ProcMethod.call(ProcMethod.java:64) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DynamicMethod.call(DynamicMethod.java:202) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DynamicMethod.call(DynamicMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:306) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:136) [jruby.jar!/:na]
+	at org.jruby.ast.VCallNode.interpret(VCallNode.java:88) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.IfNode.interpret(IfNode.java:116) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:139) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:306) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:136) [jruby.jar!/:na]
+	at org.jruby.ast.CallNoArgNode.interpret(CallNoArgNode.java:60) [jruby.jar!/:na]
+	at org.jruby.ast.InstAsgnNode.interpret(InstAsgnNode.java:95) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:161) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:190) [jruby.jar!/:na]
+	at org.jruby.RubyClass.finvoke(RubyClass.java:527) [jruby.jar!/:na]
+	at org.jruby.RubyBasicObject.send19(RubyBasicObject.java:1504) [jruby.jar!/:na]
+	at org.jruby.RubyKernel.send19(RubyKernel.java:2242) [jruby.jar!/:na]
+	at org.jruby.RubyKernel$INVOKER$s$send19.call(RubyKernel$INVOKER$s$send19.gen) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.AliasMethod.call(AliasMethod.java:86) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.cacheAndCall(SuperCallSite.java:366) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.callBlock(SuperCallSite.java:192) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.call(SuperCallSite.java:197) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.callVarargs(SuperCallSite.java:108) [jruby.jar!/:na]
+	at org.jruby.ast.ZSuperNode.interpret(ZSuperNode.java:103) [jruby.jar!/:na]
+	at org.jruby.ast.LocalAsgnNode.interpret(LocalAsgnNode.java:123) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.FCallSpecialArgNode.interpret(FCallSpecialArgNode.java:39) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:204) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.cacheAndCall(SuperCallSite.java:366) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.callBlock(SuperCallSite.java:192) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.call(SuperCallSite.java:197) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.callVarargs(SuperCallSite.java:108) [jruby.jar!/:na]
+	at org.jruby.ast.ZSuperNode.interpret(ZSuperNode.java:103) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:204) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.cacheAndCall(SuperCallSite.java:366) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.callBlock(SuperCallSite.java:192) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.call(SuperCallSite.java:197) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.callVarargs(SuperCallSite.java:108) [jruby.jar!/:na]
+	at org.jruby.ast.ZSuperNode.interpret(ZSuperNode.java:103) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_BLOCK(ASTInterpreter.java:112) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.evalBlockBody(Interpreted19Block.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.yield(Interpreted19Block.java:157) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.yieldSpecific(Interpreted19Block.java:130) [jruby.jar!/:na]
+	at org.jruby.runtime.Block.yieldSpecific(Block.java:111) [jruby.jar!/:na]
+	at org.jruby.ast.ZYieldNode.interpret(ZYieldNode.java:25) [jruby.jar!/:na]
+	at org.jruby.ast.LocalAsgnNode.interpret(LocalAsgnNode.java:123) [jruby.jar!/:na]
+	at org.jruby.ast.IfNode.interpret(IfNode.java:116) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:161) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:190) [jruby.jar!/:na]
+	at org.jruby.RubyClass.finvoke(RubyClass.java:527) [jruby.jar!/:na]
+	at org.jruby.RubyBasicObject.send19(RubyBasicObject.java:1504) [jruby.jar!/:na]
+	at org.jruby.RubyKernel.send19(RubyKernel.java:2242) [jruby.jar!/:na]
+	at org.jruby.RubyKernel$INVOKER$s$send19.call(RubyKernel$INVOKER$s$send19.gen) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:336) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callBlock(CachingCallSite.java:179) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:183) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgBlockPassNode.interpret(CallOneArgBlockPassNode.java:60) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:290) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:238) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:376) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callBlock(CachingCallSite.java:247) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:251) [jruby.jar!/:na]
+	at org.jruby.ast.CallThreeArgBlockPassNode.interpret(CallThreeArgBlockPassNode.java:64) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:204) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:206) [jruby.jar!/:na]
+	at org.jruby.RubyClass.finvoke(RubyClass.java:567) [jruby.jar!/:na]
+	at org.jruby.RubyBasicObject.send19(RubyBasicObject.java:1510) [jruby.jar!/:na]
+	at org.jruby.RubyKernel.send19(RubyKernel.java:2246) [jruby.jar!/:na]
+	at org.jruby.RubyKernel$INVOKER$s$send19.call(RubyKernel$INVOKER$s$send19.gen) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:356) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callBlock(CachingCallSite.java:213) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:217) [jruby.jar!/:na]
+	at org.jruby.ast.FCallSpecialArgBlockPassNode.interpret(FCallSpecialArgBlockPassNode.java:40) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:247) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:222) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:356) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callBlock(CachingCallSite.java:213) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callIter(CachingCallSite.java:222) [jruby.jar!/:na]
+	at org.jruby.ast.FCallTwoArgBlockNode.interpret(FCallTwoArgBlockNode.java:34) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:204) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.cacheAndCall(SuperCallSite.java:366) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.callBlock(SuperCallSite.java:192) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.call(SuperCallSite.java:197) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.callVarargs(SuperCallSite.java:108) [jruby.jar!/:na]
+	at org.jruby.ast.ZSuperNode.interpret(ZSuperNode.java:103) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.RescueNode.executeBody(RescueNode.java:221) [jruby.jar!/:na]
+	at org.jruby.ast.RescueNode.interpret(RescueNode.java:116) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:204) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.cacheAndCall(SuperCallSite.java:366) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.callBlock(SuperCallSite.java:192) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.call(SuperCallSite.java:197) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.callVarargs(SuperCallSite.java:108) [jruby.jar!/:na]
+	at org.jruby.ast.ZSuperNode.interpret(ZSuperNode.java:103) [jruby.jar!/:na]
+	at org.jruby.ast.DAsgnNode.interpret(DAsgnNode.java:110) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_BLOCK(ASTInterpreter.java:112) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.evalBlockBody(Interpreted19Block.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.yield(Interpreted19Block.java:157) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.yieldSpecific(Interpreted19Block.java:135) [jruby.jar!/:na]
+	at org.jruby.runtime.Block.yieldSpecific(Block.java:120) [jruby.jar!/:na]
+	at org.jruby.ast.YieldOneNode.interpret(YieldOneNode.java:35) [jruby.jar!/:na]
+	at org.jruby.ast.IfNode.interpret(IfNode.java:116) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_BLOCK(ASTInterpreter.java:112) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.evalBlockBody(Interpreted19Block.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.yield(Interpreted19Block.java:157) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.yieldSpecific(Interpreted19Block.java:130) [jruby.jar!/:na]
+	at org.jruby.runtime.Block.yieldSpecific(Block.java:111) [jruby.jar!/:na]
+	at org.jruby.ast.ZYieldNode.interpret(ZYieldNode.java:25) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.RescueNode.executeBody(RescueNode.java:221) [jruby.jar!/:na]
+	at org.jruby.ast.RescueNode.interpret(RescueNode.java:116) [jruby.jar!/:na]
+	at org.jruby.ast.EnsureNode.interpret(EnsureNode.java:96) [jruby.jar!/:na]
+	at org.jruby.ast.BeginNode.interpret(BeginNode.java:83) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:247) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:222) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callBlock(CachingCallSite.java:211) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callIter(CachingCallSite.java:222) [jruby.jar!/:na]
+	at org.jruby.ast.CallTwoArgBlockNode.interpret(CallTwoArgBlockNode.java:62) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.IfNode.interpret(IfNode.java:116) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:247) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:222) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:356) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callBlock(CachingCallSite.java:213) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callIter(CachingCallSite.java:222) [jruby.jar!/:na]
+	at org.jruby.ast.CallTwoArgBlockNode.interpret(CallTwoArgBlockNode.java:62) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:204) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.cacheAndCall(SuperCallSite.java:366) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.callBlock(SuperCallSite.java:192) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.call(SuperCallSite.java:197) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.callVarargs(SuperCallSite.java:108) [jruby.jar!/:na]
+	at org.jruby.ast.ZSuperNode.interpret(ZSuperNode.java:103) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.FCallSpecialArgNode.interpret(FCallSpecialArgNode.java:39) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:204) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.cacheAndCall(SuperCallSite.java:366) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.callBlock(SuperCallSite.java:192) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.call(SuperCallSite.java:197) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.callVarargs(SuperCallSite.java:108) [jruby.jar!/:na]
+	at org.jruby.ast.ZSuperNode.interpret(ZSuperNode.java:103) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.ast.EnsureNode.interpret(EnsureNode.java:96) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.FCallOneArgNode.interpret(FCallOneArgNode.java:36) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:247) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:222) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.cacheAndCall(SuperCallSite.java:386) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.callBlock(SuperCallSite.java:238) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.call(SuperCallSite.java:243) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.callVarargs(SuperCallSite.java:109) [jruby.jar!/:na]
+	at org.jruby.ast.SuperNode.interpret(SuperNode.java:115) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:225) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:214) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:346) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:204) [jruby.jar!/:na]
+	at org.jruby.ast.CallTwoArgNode.interpret(CallTwoArgNode.java:59) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_BLOCK(ASTInterpreter.java:112) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.evalBlockBody(Interpreted19Block.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.yield(Interpreted19Block.java:194) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.call(Interpreted19Block.java:125) [jruby.jar!/:na]
+	at org.jruby.runtime.Block.call(Block.java:101) [jruby.jar!/:na]
+	at org.jruby.RubyProc.call(RubyProc.java:290) [jruby.jar!/:na]
+	at org.jruby.RubyProc.call19(RubyProc.java:271) [jruby.jar!/:na]
+	at org.jruby.RubyProc$INVOKER$i$0$0$call19.call(RubyProc$INVOKER$i$0$0$call19.gen) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DynamicMethod.call(DynamicMethod.java:210) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DynamicMethod.call(DynamicMethod.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:268) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:230) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:366) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:238) [jruby.jar!/:na]
+	at org.jruby.ast.FCallThreeArgNode.interpret(FCallThreeArgNode.java:40) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.MultipleAsgn19Node.interpret(MultipleAsgn19Node.java:104) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_BLOCK(ASTInterpreter.java:112) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.evalBlockBody(Interpreted19Block.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.yield(Interpreted19Block.java:157) [jruby.jar!/:na]
+	at org.jruby.runtime.Block.yield(Block.java:142) [jruby.jar!/:na]
+	at org.jruby.RubyArray.eachCommon(RubyArray.java:1606) [jruby.jar!/:na]
+	at org.jruby.RubyArray.each(RubyArray.java:1613) [jruby.jar!/:na]
+	at org.jruby.RubyArray$INVOKER$i$0$0$each.call(RubyArray$INVOKER$i$0$0$each.gen) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:316) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callBlock(CachingCallSite.java:145) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callIter(CachingCallSite.java:154) [jruby.jar!/:na]
+	at org.jruby.ast.CallNoArgBlockNode.interpret(CallNoArgBlockNode.java:64) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.MultipleAsgn19Node.interpret(MultipleAsgn19Node.java:104) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.ast.EnsureNode.interpret(EnsureNode.java:96) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.MultipleAsgn19Node.interpret(MultipleAsgn19Node.java:104) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.MultipleAsgn19Node.interpret(MultipleAsgn19Node.java:104) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.MultipleAsgn19Node.interpret(MultipleAsgn19Node.java:104) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.ast.WhenOneArgNode.whenSlowTest(WhenOneArgNode.java:36) [jruby.jar!/:na]
+	at org.jruby.ast.WhenOneArgNode.when(WhenOneArgNode.java:46) [jruby.jar!/:na]
+	at org.jruby.ast.CaseNode.interpret(CaseNode.java:133) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.IfNode.interpret(IfNode.java:118) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.ast.EnsureNode.interpret(EnsureNode.java:96) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.MultipleAsgn19Node.interpret(MultipleAsgn19Node.java:104) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.FCallOneArgNode.interpret(FCallOneArgNode.java:36) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.MultipleAsgn19Node.interpret(MultipleAsgn19Node.java:104) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_BLOCK(ASTInterpreter.java:112) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.evalBlockBody(Interpreted19Block.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.yield(Interpreted19Block.java:157) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.yieldSpecific(Interpreted19Block.java:130) [jruby.jar!/:na]
+	at org.jruby.runtime.Block.yieldSpecific(Block.java:111) [jruby.jar!/:na]
+	at org.jruby.ast.ZYieldNode.interpret(ZYieldNode.java:25) [jruby.jar!/:na]
+	at org.jruby.ast.LocalAsgnNode.interpret(LocalAsgnNode.java:123) [jruby.jar!/:na]
+	at org.jruby.ast.IfNode.interpret(IfNode.java:116) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.RescueNode.executeBody(RescueNode.java:221) [jruby.jar!/:na]
+	at org.jruby.ast.RescueNode.interpret(RescueNode.java:116) [jruby.jar!/:na]
+	at org.jruby.ast.BeginNode.interpret(BeginNode.java:83) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:161) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:190) [jruby.jar!/:na]
+	at org.jruby.RubyClass.finvoke(RubyClass.java:527) [jruby.jar!/:na]
+	at org.jruby.RubyBasicObject.send19(RubyBasicObject.java:1504) [jruby.jar!/:na]
+	at org.jruby.RubyKernel.send19(RubyKernel.java:2242) [jruby.jar!/:na]
+	at org.jruby.RubyKernel$INVOKER$s$send19.call(RubyKernel$INVOKER$s$send19.gen) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:336) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callBlock(CachingCallSite.java:179) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:183) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgBlockPassNode.interpret(CallOneArgBlockPassNode.java:60) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:290) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:238) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:376) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callBlock(CachingCallSite.java:247) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:251) [jruby.jar!/:na]
+	at org.jruby.ast.CallThreeArgBlockPassNode.interpret(CallThreeArgBlockPassNode.java:64) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:161) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:190) [jruby.jar!/:na]
+	at org.jruby.RubyClass.finvoke(RubyClass.java:527) [jruby.jar!/:na]
+	at org.jruby.RubyBasicObject.send19(RubyBasicObject.java:1504) [jruby.jar!/:na]
+	at org.jruby.RubyKernel.send19(RubyKernel.java:2242) [jruby.jar!/:na]
+	at org.jruby.RubyKernel$INVOKER$s$send19.call(RubyKernel$INVOKER$s$send19.gen) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:336) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callBlock(CachingCallSite.java:179) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:183) [jruby.jar!/:na]
+	at org.jruby.ast.FCallSpecialArgBlockPassNode.interpret(FCallSpecialArgBlockPassNode.java:38) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:204) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:336) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callBlock(CachingCallSite.java:179) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callIter(CachingCallSite.java:188) [jruby.jar!/:na]
+	at org.jruby.ast.FCallOneArgBlockNode.interpret(FCallOneArgBlockNode.java:34) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.LocalAsgnNode.interpret(LocalAsgnNode.java:123) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.ast.RescueNode.executeBody(RescueNode.java:221) [jruby.jar!/:na]
+	at org.jruby.ast.RescueNode.interpret(RescueNode.java:116) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.LocalAsgnNode.interpret(LocalAsgnNode.java:123) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.ast.RescueNode.executeBody(RescueNode.java:221) [jruby.jar!/:na]
+	at org.jruby.ast.RescueNode.interpret(RescueNode.java:116) [jruby.jar!/:na]
+	at org.jruby.ast.BeginNode.interpret(BeginNode.java:83) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.LocalAsgnNode.interpret(LocalAsgnNode.java:123) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.RescueNode.executeBody(RescueNode.java:221) [jruby.jar!/:na]
+	at org.jruby.ast.RescueNode.interpret(RescueNode.java:116) [jruby.jar!/:na]
+	at org.jruby.ast.BeginNode.interpret(BeginNode.java:83) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.ast.EnsureNode.interpret(EnsureNode.java:96) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:225) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:214) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:346) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:204) [jruby.jar!/:na]
+	at org.jruby.ast.FCallTwoArgNode.interpret(FCallTwoArgNode.java:38) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_BLOCK(ASTInterpreter.java:112) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.evalBlockBody(Interpreted19Block.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.yield(Interpreted19Block.java:157) [jruby.jar!/:na]
+	at org.jruby.runtime.Interpreted19Block.yieldSpecific(Interpreted19Block.java:135) [jruby.jar!/:na]
+	at org.jruby.runtime.Block.yieldSpecific(Block.java:120) [jruby.jar!/:na]
+	at org.jruby.ast.YieldOneNode.interpret(YieldOneNode.java:35) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.ast.EnsureNode.interpret(EnsureNode.java:96) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:204) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:336) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callBlock(CachingCallSite.java:179) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callIter(CachingCallSite.java:188) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgBlockNode.interpret(CallOneArgBlockNode.java:60) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.IfNode.interpret(IfNode.java:116) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.MultipleAsgn19Node.interpret(MultipleAsgn19Node.java:104) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.MultipleAsgn19Node.interpret(MultipleAsgn19Node.java:104) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.ast.EnsureNode.interpret(EnsureNode.java:96) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.LocalAsgnNode.interpret(LocalAsgnNode.java:123) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.ast.EnsureNode.interpret(EnsureNode.java:96) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:182) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:198) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.cacheAndCall(CachingCallSite.java:326) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:170) [jruby.jar!/:na]
+	at org.jruby.ast.CallOneArgNode.interpret(CallOneArgNode.java:57) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:204) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:206) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.cacheAndCall(SuperCallSite.java:366) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.callBlock(SuperCallSite.java:192) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.call(SuperCallSite.java:197) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.SuperCallSite.callVarargs(SuperCallSite.java:108) [jruby.jar!/:na]
+	at org.jruby.ast.SuperNode.interpret(SuperNode.java:115) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.ast.BlockNode.interpret(BlockNode.java:71) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:204) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:206) [jruby.jar!/:na]
+	at org.jruby.RubyClass.finvoke(RubyClass.java:567) [jruby.jar!/:na]
+	at org.jruby.RubyBasicObject.send19(RubyBasicObject.java:1510) [jruby.jar!/:na]
+	at org.jruby.RubyKernel.send19(RubyKernel.java:2246) [jruby.jar!/:na]
+	at org.jruby.RubyKernel$INVOKER$s$send19.call(RubyKernel$INVOKER$s$send19.gen) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.callBlock(CachingCallSite.java:211) [jruby.jar!/:na]
+	at org.jruby.runtime.callsite.CachingCallSite.call(CachingCallSite.java:217) [jruby.jar!/:na]
+	at org.jruby.ast.CallSpecialArgBlockPassNode.interpret(CallSpecialArgBlockPassNode.java:66) [jruby.jar!/:na]
+	at org.jruby.ast.NewlineNode.interpret(NewlineNode.java:105) [jruby.jar!/:na]
+	at org.jruby.evaluator.ASTInterpreter.INTERPRET_METHOD(ASTInterpreter.java:74) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.InterpretedMethod.call(InterpretedMethod.java:112) [jruby.jar!/:na]
+	at org.jruby.internal.runtime.methods.DefaultMethod.call(DefaultMethod.java:164) [jruby.jar!/:na]
+	at org.jruby.runtime.Helpers$MethodMissingMethod.call(Helpers.java:451) [jruby.jar!/:na]
+	at org.jruby.runtime.Helpers.callMethodMissing(Helpers.java:366) [jruby.jar!/:na]
+	at org.jruby.RubyClass.finvoke(RubyClass.java:669) [jruby.jar!/:na]
+	at org.jruby.runtime.Helpers.invoke(Helpers.java:511) [jruby.jar!/:na]
+	at org.jruby.RubyBasicObject.callMethod(RubyBasicObject.java:371) [jruby.jar!/:na]
+	at org.jruby.javasupport.JavaEmbedUtils.invokeMethod(JavaEmbedUtils.java:264) [jruby.jar!/:na]
+	at org.torquebox.core.util.RuntimeHelper$3.call(RuntimeHelper.java:91) [torquebox-core.jar!/:3.0.2]
+	at org.torquebox.core.util.RuntimeHelper.withinContext(RuntimeHelper.java:264) [torquebox-core.jar!/:3.0.2]
+	at org.torquebox.core.util.RuntimeHelper.call(RuntimeHelper.java:89) [torquebox-core.jar!/:3.0.2]
+	at org.torquebox.core.component.AbstractRubyComponent._callRubyMethod(AbstractRubyComponent.java:64) [torquebox-core.jar!/:3.0.2]
+	at org.torquebox.core.component.AbstractRubyComponent._callRubyMethod(AbstractRubyComponent.java:73) [torquebox-core.jar!/:3.0.2]
+	at org.torquebox.web.component.RackApplicationComponent.call(RackApplicationComponent.java:38) [torquebox-web.jar!/:3.0.2]
+	at org.torquebox.web.servlet.RackFilter.doRack(RackFilter.java:131) [torquebox-web.jar!/:3.0.2]
+	at org.torquebox.web.servlet.RackFilter.doFilter(RackFilter.java:114) [torquebox-web.jar!/:3.0.2]
+	at org.torquebox.web.servlet.RackFilter.doFilter(RackFilter.java:72) [torquebox-web.jar!/:3.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:246) [jbossweb-7.2.0.Final.jar!/:7.2.0.Final]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:214) [jbossweb-7.2.0.Final.jar!/:7.2.0.Final]
+	at org.torquebox.web.servlet.SendfileFilter.doFilter(SendfileFilter.java:49) [torquebox-web.jar!/:3.0.2]
+	at org.torquebox.web.servlet.SendfileFilter.doFilter(SendfileFilter.java:33) [torquebox-web.jar!/:3.0.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:246) [jbossweb-7.2.0.Final.jar!/:7.2.0.Final]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:214) [jbossweb-7.2.0.Final.jar!/:7.2.0.Final]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:230) [jbossweb-7.2.0.Final.jar!/:7.2.0.Final]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:149) [jbossweb-7.2.0.Final.jar!/:7.2.0.Final]
+	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:169) [jboss-as-web-7.2.x.slim.tb3.incremental.2.jar!/:7.2.x.slim.tb3.incremental.2]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:145) [jbossweb-7.2.0.Final.jar!/:7.2.0.Final]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:97) [jbossweb-7.2.0.Final.jar!/:7.2.0.Final]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:102) [jbossweb-7.2.0.Final.jar!/:7.2.0.Final]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:336) [jbossweb-7.2.0.Final.jar!/:7.2.0.Final]
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:856) [jbossweb-7.2.0.Final.jar!/:7.2.0.Final]
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:653) [jbossweb-7.2.0.Final.jar!/:7.2.0.Final]
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:920) [jbossweb-7.2.0.Final.jar!/:7.2.0.Final]
+	at java.lang.Thread.run(Thread.java:695) [na:1.6.0_65]
+2014-03-16 09:00:21.119+0000 INFO  [o.n.k.i.n.s.StoreFactory]: Creating new db @ /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore
+2014-03-16 09:00:21.155+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.nodestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-03-16 09:00:21.163+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.nodestore.db hit=0 miss=1 switches=0 ooe=0
+2014-03-16 09:00:21.198+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-03-16 09:00:21.205+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-03-16 09:00:21.205+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-03-16 09:00:21.207+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2014-03-16 09:00:21.210+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-03-16 09:00:21.210+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-03-16 09:00:21.210+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db.strings] brickCount=0 brickSize=0b mappedMem=0b (storeSize=128b)
+2014-03-16 09:00:21.211+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-03-16 09:00:21.213+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-03-16 09:00:21.214+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db.arrays] brickCount=0 brickSize=0b mappedMem=0b (storeSize=128b)
+2014-03-16 09:00:21.220+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-03-16 09:00:21.222+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.relationshipstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-03-16 09:00:21.222+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.nodestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=9b)
+2014-03-16 09:00:21.223+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-03-16 09:00:21.225+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-03-16 09:00:21.226+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2014-03-16 09:00:21.227+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2014-03-16 09:00:21.229+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2014-03-16 09:00:21.232+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2014-03-16 09:00:21.234+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2014-03-16 09:00:21.237+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2014-03-16 09:00:21.239+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2014-03-16 09:00:21.244+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2014-03-16 09:00:21.246+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore hit=0 miss=8 switches=0 ooe=0
+2014-03-16 09:00:21.254+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-03-16 09:00:21.254+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-03-16 09:00:21.255+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db.strings] brickCount=0 brickSize=0b mappedMem=0b (storeSize=128b)
+2014-03-16 09:00:21.255+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-03-16 09:00:21.255+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-03-16 09:00:21.256+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db.arrays] brickCount=0 brickSize=0b mappedMem=0b (storeSize=128b)
+2014-03-16 09:00:21.256+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-03-16 09:00:21.256+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.relationshipstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-03-16 09:00:21.256+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.nodestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=9b)
+2014-03-16 09:00:21.257+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2014-03-16 09:00:21.332+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/nioneo_logical.log.1] version=0, lastTxId=1 (clean)
+2014-03-16 09:00:21.364+0000 INFO  [o.n.k.i.t.TxManager]: TM new log: tm_tx_log.1
+2014-03-16 09:00:21.546+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [/projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/index/lucene.log.1] version=0, lastTxId=1 (clean)
+2014-03-16 09:00:21.557+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2014-03-16 09:00:21.558+0000 INFO  [o.n.k.i.DiagnosticsManager]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1394960421119, id:7853840967801421927, store version: 13561656364791302]
+2014-03-16 09:00:21.558+0000 INFO  [o.n.k.i.DiagnosticsManager]: Kernel version: Neo4j - Graph Database Kernel 1.9.5
+2014-03-16 09:00:21.558+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j component versions:
+2014-03-16 09:00:21.559+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Database Kernel 1.9.5
+2014-03-16 09:00:21.559+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2014-03-16 09:00:21.564+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2014-03-16 09:00:21.564+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2014-03-16 09:00:21.564+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2014-03-16 09:00:21.564+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NeoStore v0.A.0
+2014-03-16 09:00:21.564+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore v0.A.0
+2014-03-16 09:00:21.564+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore v0.A.0
+2014-03-16 09:00:21.564+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore v0.A.0
+2014-03-16 09:00:21.564+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore v0.A.0
+2014-03-16 09:00:21.564+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore v0.A.0
+2014-03-16 09:00:21.564+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore v0.A.0
+2014-03-16 09:00:21.564+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore v0.A.0
+2014-03-16 09:00:21.565+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2014-03-16 09:00:21.565+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2014-03-16 09:00:21.565+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2014-03-16 09:00:21.565+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2014-03-16 09:00:21.565+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore: used=1 high=0
+2014-03-16 09:00:21.565+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore: used=0 high=-1
+2014-03-16 09:00:21.565+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore: used=0 high=-1
+2014-03-16 09:00:21.565+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore: used=0 high=-1
+2014-03-16 09:00:21.565+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore: used=0 high=-1
+2014-03-16 09:00:21.566+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore: used=1 high=0
+2014-03-16 09:00:21.566+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore: used=1 high=0
+2014-03-16 09:00:21.575+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2014-03-16 09:00:21.575+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2014-03-16 09:00:21.575+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2014-03-16 09:00:21.575+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2014-03-16 09:00:21.576+0000 INFO  [o.n.k.i.DiagnosticsManager]: Disk space on partition (Total / Free / Free %): 249538142208 / 16487448576 / 6
+Storage files: (filename : modification date - size)
+2014-03-16 09:00:21.577+0000 INFO  [o.n.k.i.DiagnosticsManager]:   active_tx_log: 2014-03-16T02:00:21-0700 - 11.00 B
+2014-03-16 09:00:21.577+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index:
+2014-03-16 09:00:21.577+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene-store.db: 2014-03-16T02:00:21-0700 - 40.00 B
+2014-03-16 09:00:21.577+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.1: 2014-03-16T02:00:21-0700 - 16.00 B
+2014-03-16 09:00:21.577+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.active: 2014-03-16T02:00:21-0700 - 4.00 B
+2014-03-16 09:00:21.577+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2014-03-16T02:00:21-0700 - 60.00 B
+2014-03-16 09:00:21.577+0000 INFO  [o.n.k.i.DiagnosticsManager]:   lock: 2014-03-16T02:00:21-0700 - 0.00 B
+2014-03-16 09:00:21.578+0000 INFO  [o.n.k.i.DiagnosticsManager]:   messages.log: 2014-03-16T02:00:21-0700 - 115.15 kB
+2014-03-16 09:00:21.578+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore: 2014-03-16T02:00:21-0700 - 54.00 B
+2014-03-16 09:00:21.578+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.id: 2014-03-16T02:00:21-0700 - 9.00 B
+2014-03-16 09:00:21.578+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db: 2014-03-16T02:00:21-0700 - 9.00 B
+2014-03-16 09:00:21.578+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.id: 2014-03-16T02:00:21-0700 - 9.00 B
+2014-03-16 09:00:21.578+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db: 2014-03-16T02:00:21-0700 - 0.00 B
+2014-03-16 09:00:21.578+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays: 2014-03-16T02:00:21-0700 - 128.00 B
+2014-03-16 09:00:21.579+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays.id: 2014-03-16T02:00:21-0700 - 9.00 B
+2014-03-16 09:00:21.579+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.id: 2014-03-16T02:00:21-0700 - 9.00 B
+2014-03-16 09:00:21.579+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index: 2014-03-16T02:00:21-0700 - 0.00 B
+2014-03-16 09:00:21.580+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.id: 2014-03-16T02:00:21-0700 - 9.00 B
+2014-03-16 09:00:21.580+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys: 2014-03-16T02:00:21-0700 - 38.00 B
+2014-03-16 09:00:21.581+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys.id: 2014-03-16T02:00:21-0700 - 9.00 B
+2014-03-16 09:00:21.581+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings: 2014-03-16T02:00:21-0700 - 128.00 B
+2014-03-16 09:00:21.581+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings.id: 2014-03-16T02:00:21-0700 - 9.00 B
+2014-03-16 09:00:21.581+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db: 2014-03-16T02:00:21-0700 - 0.00 B
+2014-03-16 09:00:21.582+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db.id: 2014-03-16T02:00:21-0700 - 9.00 B
+2014-03-16 09:00:21.582+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db: 2014-03-16T02:00:21-0700 - 0.00 B
+2014-03-16 09:00:21.582+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.id: 2014-03-16T02:00:21-0700 - 9.00 B
+2014-03-16 09:00:21.588+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names: 2014-03-16T02:00:21-0700 - 38.00 B
+2014-03-16 09:00:21.588+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names.id: 2014-03-16T02:00:21-0700 - 9.00 B
+2014-03-16 09:00:21.588+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.1: 2014-03-16T02:00:21-0700 - 16.00 B
+2014-03-16 09:00:21.589+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.active: 2014-03-16T02:00:21-0700 - 4.00 B
+2014-03-16 09:00:21.589+0000 INFO  [o.n.k.i.DiagnosticsManager]:   store_lock: 2014-03-16T02:00:21-0700 - 0.00 B
+2014-03-16 09:00:21.589+0000 INFO  [o.n.k.i.DiagnosticsManager]:   tm_tx_log.1: 2014-03-16T02:00:21-0700 - 0.00 B
+2014-03-16 09:00:21.589+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2014-03-16 09:00:21.595+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor started. 
+2014-03-16 09:00:21.603+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now ready
+2014-03-16 09:07:11.740+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 114ms [total block time: 0.114s]
+2014-03-16 09:10:18.589+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Shutdown started
+2014-03-16 09:10:18.603+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is no longer ready
+2014-03-16 09:10:18.605+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor stopped. 
+2014-03-16 09:10:18.631+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/index/lucene.log
+2014-03-16 09:10:18.632+0000 INFO  [o.n.k.i.t.TxManager]: TM shutting down
+2014-03-16 09:10:18.645+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/nioneo_logical.log
+2014-03-16 09:10:18.645+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.relationshiptypestore.db.names hit=0 miss=2 switches=0 ooe=0
+2014-03-16 09:10:18.647+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.relationshiptypestore.db hit=0 miss=2 switches=0 ooe=0
+2014-03-16 09:10:18.648+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2014-03-16 09:10:18.650+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db.index.keys hit=0 miss=7 switches=0 ooe=0
+2014-03-16 09:10:18.651+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db.index hit=0 miss=7 switches=0 ooe=0
+2014-03-16 09:10:18.667+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2014-03-16 09:10:18.670+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.propertystore.db hit=0 miss=3 switches=0 ooe=0
+2014-03-16 09:10:18.671+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.relationshipstore.db hit=0 miss=4 switches=0 ooe=0
+2014-03-16 09:10:18.673+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore.nodestore.db hit=0 miss=9 switches=0 ooe=0
+2014-03-16 09:10:18.674+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/neo4j-development/neostore hit=0 miss=20 switches=0 ooe=0
+2014-03-16 09:10:18.677+0000 INFO  [o.n.k.i.n.x.NeoStoreXaDataSource]: NeoStore closed
+2014-03-16 09:10:18.677+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2014-03-16 09:10:18.677+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
