@@ -11,10 +11,11 @@ set :branch,            "master"
 set :user,              "torquebox"
 set :scm,               :git
 set :scm_verbose,       true
-# set :use_sudo,          false
+set :use_sudo,          false
 
 set :deploy_to,         "/opt/apps/neo4j-demo-app.com"
-set :torquebox_home,    "/opt/torquebox/current"
+# set :torquebox_home,    "/opt/torquebox/current"
+set :torquebox_home,    "/opt/torquebox"
 set :jboss_init_script, "/etc/init.d/jboss-as-standalone"
 set :rails_env, 'development'
 set :app_context,       "/"
@@ -22,7 +23,7 @@ set :app_ruby_version, '1.9'
 set :application, "this_or_that"
 
 default_environment['JRUBY_OPTS'] = '--1.9'
-default_environment['PATH'] = '/opt/torquebox/current/jboss/bin:/opt/torquebox/current/jruby/bin:/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/root/bin:/root/bin'
+default_environment['PATH'] = '/opt/torquebox/current/jboss/bin:/opt/torquebox/.rvm/gems/jruby-1.7.11:/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/root/bin:/root/bin'
 
 after 'deploy:update_code', 'deploy:assets:precompile'
 after 'deploy:update', 'deploy:resymlink'
