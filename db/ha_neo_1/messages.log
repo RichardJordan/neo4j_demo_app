@@ -6453,3 +6453,38 @@ Storage files: (filename : modification date - size)
 2014-03-17 07:44:56.893+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
 2014-03-17 07:44:56.893+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: Database is now ready
 2014-03-17 07:44:56.893+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Database available for write transactions
+2014-03-17 08:02:47.521+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: Shutdown started
+2014-03-17 08:02:47.526+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: Database is no longer ready
+2014-03-17 08:02:47.527+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Write transactions to database disabled
+2014-03-17 08:02:47.537+0000 INFO  [o.n.c.p.c.ClusterState]: Shutting down cluster: neo4j.ha
+2014-03-17 08:02:47.538+0000 INFO  [o.n.k.h.HighAvailabilityConsoleLogger]: Instance 1 (this server) left the cluster
+2014-03-17 08:02:47.557+0000 INFO  [o.n.k.h.HighlyAvailableGraphDatabase]: GC Monitor stopped. 
+2014-03-17 08:02:47.573+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/ha_neo_1/index/lucene.log
+2014-03-17 08:02:47.574+0000 INFO  [o.n.k.i.t.TxManager]: TM shutting down
+2014-03-17 08:02:47.625+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/ha_neo_1/nioneo_logical.log
+2014-03-17 08:02:47.632+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/ha_neo_1/neostore.relationshiptypestore.db.names hit=0 miss=4 switches=0 ooe=0
+2014-03-17 08:02:47.635+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/ha_neo_1/neostore.relationshiptypestore.db hit=0 miss=2 switches=0 ooe=0
+2014-03-17 08:02:47.637+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/ha_neo_1/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2014-03-17 08:02:47.639+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/ha_neo_1/neostore.propertystore.db.index.keys hit=0 miss=6 switches=0 ooe=0
+2014-03-17 08:02:47.641+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/ha_neo_1/neostore.propertystore.db.index hit=0 miss=1001 switches=0 ooe=0
+2014-03-17 08:02:47.642+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/ha_neo_1/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2014-03-17 08:02:47.645+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/ha_neo_1/neostore.propertystore.db hit=1 miss=0 switches=0 ooe=0
+2014-03-17 08:02:47.647+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/ha_neo_1/neostore.relationshipstore.db hit=3 miss=0 switches=0 ooe=0
+2014-03-17 08:02:47.648+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/ha_neo_1/neostore.nodestore.db hit=6 miss=0 switches=0 ooe=0
+2014-03-17 08:02:47.650+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /projects/test_projects_neo/neo4j-demo-app/neo4j_demo_app/db/ha_neo_1/neostore hit=0 miss=37 switches=0 ooe=0
+2014-03-17 08:02:47.652+0000 INFO  [o.n.k.i.n.x.NeoStoreXaDataSource]: NeoStore closed
+2014-03-17 08:02:47.652+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2014-03-17 08:02:47.653+0000 INFO  [o.n.k.i.DiagnosticsManager]: High Availability diagnostics
+Member state:PENDING
+State machines:
+   AtomicBroadcastMessage:start
+   AcceptorMessage:start
+   ProposerMessage:start
+   LearnerMessage:start
+   HeartbeatMessage:start
+   ElectionMessage:start
+   SnapshotMessage:start
+   ClusterMessage:start
+Current timeouts:
+
+2014-03-17 08:02:47.653+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---

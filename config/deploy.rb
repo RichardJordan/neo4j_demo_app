@@ -11,9 +11,9 @@ set :branch,            "master"
 set :user,              "torquebox"
 set :scm,               :git
 set :scm_verbose,       true
-set :use_sudo,          false
+# set :use_sudo,          false
 
-set :deploy_to,         "/opt/apps/neo4j_demo_app.com"
+set :deploy_to,         "/opt/apps/neo4j-demo-app.com"
 set :torquebox_home,    "/opt/torquebox/current"
 set :jboss_init_script, "/etc/init.d/jboss-as-standalone"
 set :rails_env, 'development'
